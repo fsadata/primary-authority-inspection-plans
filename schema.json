@@ -1,0 +1,38 @@
+{
+	"fields": [
+		{
+			"name": "DateFrom",
+			"title": "DateFrom",
+			"constraints": {
+				"required": true,
+				"type": "http://www.w3.org/2001/XMLSchema#date",
+                                "datePattern": "%Y-%m-%d"
+			}
+		},
+		{
+			"name": "DateTo",
+			"title": "DateTo",
+			"constraints": {
+				"required": true,
+				"type": "http://www.w3.org/2001/XMLSchema#date",
+                                "datePattern": "%Y-%m-%d"
+			}
+		},
+		{
+			"name": "LocalAuthority",
+			"title": "LocalAuthority",
+			"constraints": {
+				"required": true,
+				"type": "http://www.w3.org/2001/XMLSchema#string"
+			}
+		},
+		{
+			"name": "NumberOfPlansPA",
+			"title": "NumberOfPlansPA",
+			"constraints": {
+				"required": true,
+				"type": "http://www.w3.org/2001/XMLSchema#int"
+			}
+		}
+	]
+}
